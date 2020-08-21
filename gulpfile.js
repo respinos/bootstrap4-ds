@@ -36,3 +36,7 @@ gulp.task('sass', function() {
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(stylesheets.output));
 });
+
+gulp.task('default', function() {
+  return gulp.src('.', { allowEmpty: true });
+})

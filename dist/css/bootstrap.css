@@ -648,7 +648,7 @@ mark,
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #6e7d8a;
+  border: 1px solid #c7d0d8;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -1656,16 +1656,16 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #6e7d8a;
+  border-top: 1px solid #c7d0d8;
 }
 
 .table thead th {
   vertical-align: bottom;
-  border-bottom: 2px solid #6e7d8a;
+  border-bottom: 2px solid #c7d0d8;
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #6e7d8a;
+  border-top: 2px solid #c7d0d8;
 }
 
 .table-sm th,
@@ -1674,12 +1674,12 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #6e7d8a;
+  border: 1px solid #c7d0d8;
 }
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #6e7d8a;
+  border: 1px solid #c7d0d8;
 }
 
 .table-bordered thead th,
@@ -1903,7 +1903,7 @@ pre code {
 .table .thead-light th {
   color: #374047;
   background-color: #E5E9ED;
-  border-color: #6e7d8a;
+  border-color: #c7d0d8;
 }
 
 .table-dark {
@@ -2000,7 +2000,7 @@ pre code {
   color: #374047;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #58636d;
+  border: 1px solid #a9b6c3;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -3602,7 +3602,7 @@ input[type="button"].btn-block {
   text-align: center;
   white-space: nowrap;
   background-color: #E5E9ED;
-  border: 1px solid #58636d;
+  border: 1px solid #a9b6c3;
   border-radius: 0.25rem;
 }
 
@@ -3834,7 +3834,7 @@ input[type="button"].btn-block {
   color: #374047;
   vertical-align: middle;
   background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23212B36' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
-  border: 1px solid #58636d;
+  border: 1px solid #a9b6c3;
   border-radius: 0.25rem;
   appearance: none;
 }
@@ -3933,7 +3933,7 @@ input[type="button"].btn-block {
   line-height: 1.5;
   color: #374047;
   background-color: #fff;
-  border: 1px solid #58636d;
+  border: 1px solid #a9b6c3;
   border-radius: 0.25rem;
 }
 
@@ -4008,7 +4008,7 @@ input[type="button"].btn-block {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #6e7d8a;
+  background-color: #c7d0d8;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -4038,7 +4038,7 @@ input[type="button"].btn-block {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #6e7d8a;
+  background-color: #c7d0d8;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -4077,13 +4077,13 @@ input[type="button"].btn-block {
 }
 
 .custom-range::-ms-fill-lower {
-  background-color: #6e7d8a;
+  background-color: #c7d0d8;
   border-radius: 1rem;
 }
 
 .custom-range::-ms-fill-upper {
   margin-right: 15px;
-  background-color: #6e7d8a;
+  background-color: #c7d0d8;
   border-radius: 1rem;
 }
 
@@ -4145,7 +4145,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #6e7d8a;
+  border-bottom: 1px solid #c7d0d8;
 }
 
 .nav-tabs .nav-item {
@@ -4159,7 +4159,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: #E5E9ED #E5E9ED #6e7d8a;
+  border-color: #E5E9ED #E5E9ED #c7d0d8;
 }
 
 .nav-tabs .nav-link.disabled {
@@ -4172,7 +4172,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-item.show .nav-link {
   color: #374047;
   background-color: #fff;
-  border-color: #6e7d8a #6e7d8a #fff;
+  border-color: #c7d0d8 #c7d0d8 #fff;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4857,7 +4857,7 @@ input[type="button"].btn-block {
   line-height: 1.25;
   color: #4C6781;
   background-color: #fff;
-  border: 1px solid #6e7d8a;
+  border: 1px solid #c7d0d8;
 }
 
 .page-link:hover {
@@ -4865,7 +4865,7 @@ input[type="button"].btn-block {
   color: #304151;
   text-decoration: none;
   background-color: #E5E9ED;
-  border-color: #6e7d8a;
+  border-color: #c7d0d8;
 }
 
 .page-link:focus {
@@ -4897,7 +4897,7 @@ input[type="button"].btn-block {
   pointer-events: none;
   cursor: auto;
   background-color: #fff;
-  border-color: #6e7d8a;
+  border-color: #c7d0d8;
 }
 
 .pagination-lg .page-link {
@@ -5847,7 +5847,7 @@ a.close.disabled {
   align-items: flex-start;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #6e7d8a;
+  border-bottom: 1px solid #c7d0d8;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
@@ -5874,7 +5874,7 @@ a.close.disabled {
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #6e7d8a;
+  border-top: 1px solid #c7d0d8;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
 }
@@ -6549,23 +6549,23 @@ button.bg-dark:focus {
 }
 
 .border {
-  border: 1px solid #6e7d8a !important;
+  border: 1px solid #c7d0d8 !important;
 }
 
 .border-top {
-  border-top: 1px solid #6e7d8a !important;
+  border-top: 1px solid #c7d0d8 !important;
 }
 
 .border-right {
-  border-right: 1px solid #6e7d8a !important;
+  border-right: 1px solid #c7d0d8 !important;
 }
 
 .border-bottom {
-  border-bottom: 1px solid #6e7d8a !important;
+  border-bottom: 1px solid #c7d0d8 !important;
 }
 
 .border-left {
-  border-left: 1px solid #6e7d8a !important;
+  border-left: 1px solid #c7d0d8 !important;
 }
 
 .border-0 {
@@ -9801,7 +9801,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #6e7d8a !important;
+    border: 1px solid #c7d0d8 !important;
   }
   .table-dark {
     color: inherit;
@@ -9810,11 +9810,11 @@ a.text-dark:hover, a.text-dark:focus {
   .table-dark td,
   .table-dark thead th,
   .table-dark tbody + tbody {
-    border-color: #6e7d8a;
+    border-color: #c7d0d8;
   }
   .table .thead-dark th {
     color: inherit;
-    border-color: #6e7d8a;
+    border-color: #c7d0d8;
   }
 }
 
@@ -9827,11 +9827,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .swatch-300 {
-  background: #6e7d8a;
+  background: #c7d0d8;
 }
 
 .swatch-400 {
-  background: #58636d;
+  background: #a9b6c3;
 }
 
 .swatch-500 {
