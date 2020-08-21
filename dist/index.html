@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>B is for Bootstrap</title>
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Crimson+Text|Muli:400,600,700"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <style>
+    .bd-example-modal .modal {
+        position: relative;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        z-index: 1;
+        display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">  
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Library</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Data</li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h1>About Bootstrap</h1>
+      </div>
+      <div class="col-sm">
+        <p>The basics are never interesting.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <h2>
+          All things change
+          <small class="text-muted">all the time</small>
+        </h2>
+        <p>Ahoy there.</p>
+        <p class="bg-primary">Background: primary.</p>
+        <p class="bg-danger">Background: danger.</p>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="alert alert-primary" role="alert">
+          This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-secondary" role="alert">
+          This is a secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-success" role="alert">
+          This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-danger" role="alert">
+          This is a danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-warning" role="alert">
+          This is a warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-info" role="alert">
+          This is a info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-light" role="alert">
+          This is a light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-dark" role="alert">
+          This is a dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+      </div>
+    </div>
+
+    <form class="form-inline">
+      <label class="sr-only" for="inlineFormInputName2">Name</label>
+      <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
+
+      <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+      <div class="input-group mb-2 mr-sm-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">@</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
+      </div>
+
+      <div class="form-check mb-2 mr-sm-2">
+        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+        <label class="form-check-label" for="inlineFormCheck">
+          Remember me
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </form>
+
+    <div class="bd-example bd-example-modal">
+      <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <div class="col-md-4">
+        
+          <div class="p-3 swatch-100">100</div>
+        
+          <div class="p-3 swatch-200">200</div>
+        
+          <div class="p-3 swatch-300">300</div>
+        
+          <div class="p-3 swatch-400">400</div>
+        
+          <div class="p-3 swatch-500">500</div>
+        
+          <div class="p-3 swatch-600">600</div>
+        
+          <div class="p-3 swatch-700">700</div>
+        
+          <div class="p-3 swatch-800">800</div>
+        
+          <div class="p-3 swatch-900">900</div>
+        
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
